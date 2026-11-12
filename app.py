@@ -54,28 +54,31 @@ st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap');
 html, body, [class*="css"] {font-family:'Be Vietnam Pro','Segoe UI',Arial,sans-serif;}
-.stApp {background:#f6f9ff;color:#24324b;}
+.stApp {background:linear-gradient(180deg,#fff7ed 0%,#fff1e8 48%,#fff8f2 100%);color:#3b211c;}
 .block-container {max-width:1480px;padding-top:1rem;padding-bottom:2rem;}
-[data-testid="stSidebar"] {background:linear-gradient(180deg,#fff0f7 0%,#f1f5ff 100%);border-right:1px solid #f0dce9;}
-.top-strip {background:linear-gradient(90deg,#fff0f7,#eef4ff);border:1px solid #f0dce9;border-radius:15px;padding:.7rem 1rem;margin:.1rem 0 1rem;color:#34415d;}
-.top-strip strong {color:#c21868;}
-.hero {background:linear-gradient(110deg,#123b80,#2168ba 58%,#6c65c7);padding:1.2rem 1.5rem;border-radius:19px;color:white;margin:.65rem 0 1rem;box-shadow:0 9px 25px #214c9220;}
+[data-testid="stSidebar"] {background:linear-gradient(180deg,#ffead5 0%,#ffe1d6 55%,#fff1e8 100%);border-right:1px solid #f2c5ae;}
+.top-strip {background:linear-gradient(90deg,#fff0d9,#ffe1d5);border:1px solid #f0c4a7;border-radius:15px;padding:.7rem 1rem;margin:.1rem 0 1rem;color:#5a2a20;}
+.top-strip strong {color:#9f1d1d;}
+.hero {background:linear-gradient(110deg,#8f1717 0%,#b52a1d 48%,#f07824 100%);padding:1.2rem 1.5rem;border-radius:19px;color:white;margin:.65rem 0 1rem;box-shadow:0 9px 25px #9f1d1d26;}
 .hero h1 {color:white!important;font-size:clamp(1.45rem,2.7vw,2.15rem);font-weight:800;margin:.2rem 0 .25rem;}
 .hero p {color:#edf4ff;margin:0;}
 .eyebrow {display:inline-block;background:#ffffff20;border:1px solid #ffffff60;border-radius:99px;padding:.28rem .7rem;font-size:.76rem;font-weight:800;letter-spacing:.03em;}
-.section-title {font-size:1.3rem;font-weight:800;color:#214b91;margin:.3rem 0;}
-.section-sub {color:#697791;margin-bottom:1rem;}
-.feature-card {height:100%;min-height:150px;background:linear-gradient(145deg,#fff,#f4f7ff);border:1px solid #e1e8f6;border-radius:17px;padding:1rem 1.05rem;box-shadow:0 4px 14px #284b8010;}
-.feature-card h3 {font-size:1rem;color:#244b91;font-weight:800;margin:.35rem 0;}
-.feature-card p {font-size:.88rem;line-height:1.5;color:#596984;margin:0;}
+.section-title {font-size:1.3rem;font-weight:800;color:#9f1d1d;margin:.3rem 0;}
+.section-sub {color:#79564d;margin-bottom:1rem;}
+.feature-card {height:100%;min-height:150px;background:linear-gradient(145deg,#fffdf9,#fff0e5);border:1px solid #f1d2bd;border-radius:17px;padding:1rem 1.05rem;box-shadow:0 4px 14px #8f321510;}
+.feature-card h3 {font-size:1rem;color:#9f1d1d;font-weight:800;margin:.35rem 0;}
+.feature-card p {font-size:.88rem;line-height:1.5;color:#70574f;margin:0;}
 .feature-icon {font-size:2rem;line-height:1.2;}
-div[data-testid="stMetric"] {background:white;border:1px solid #e1e8f5;border-radius:15px;padding:.85rem .95rem;}
-div[data-testid="stMetricValue"] {color:#214b91;font-weight:800;}
+div[data-testid="stMetric"] {background:#fffdf9;border:1px solid #efcfba;border-radius:15px;padding:.85rem .95rem;}
+div[data-testid="stMetricValue"] {color:#a5221b;font-weight:800;}
 .stButton>button,.stDownloadButton>button {border-radius:11px;font-weight:750;min-height:2.55rem;}
-div[data-testid="stDataFrame"] {border:1px solid #e1e8f5;border-radius:12px;overflow:hidden;}
+div[data-testid="stDataFrame"] {border:1px solid #efcfba;border-radius:12px;overflow:hidden;}
 div[data-testid="stTabs"] button {font-weight:750;}
-.panel-note {background:#eef5ff;border:1px solid #dce9ff;border-radius:13px;padding:.8rem 1rem;color:#344d75;}
-.footer {text-align:center;color:#6b7890;font-size:.82rem;line-height:1.7;padding:1rem .5rem;}
+.stButton>button, .stDownloadButton>button {border:1px solid #b52a1d;color:#8f1717;background:#fff8f1;}
+.stButton>button:hover, .stDownloadButton>button:hover {background:#9f1d1d;color:white;border-color:#9f1d1d;}
+input:focus, textarea:focus {border-color:#e87524!important;box-shadow:0 0 0 .15rem #f9c18b!important;}
+.panel-note {background:#fff0df;border:1px solid #f1c69f;border-radius:13px;padding:.8rem 1rem;color:#71351f;}
+.footer {text-align:center;color:#805d51;font-size:.82rem;line-height:1.7;padding:1rem .5rem;}
 </style>
 """, unsafe_allow_html=True)
 
